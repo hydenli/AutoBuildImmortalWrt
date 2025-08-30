@@ -24,7 +24,7 @@ CUSTOM_PACKAGES="$CUSTOM_PACKAGES luci-app-tailscale luci-i18n-tailscale-zh-cn"
 # 分区扩容 by sirpdboy 
 CUSTOM_PACKAGES="$CUSTOM_PACKAGES luci-app-partexp luci-i18n-partexp-zh-cn"
 # 酷猫主题 by sirpdboy 
-#CUSTOM_PACKAGES="$CUSTOM_PACKAGES luci-theme-kucat"
+CUSTOM_PACKAGES="$CUSTOM_PACKAGES luci-theme-kucat"
 # 进阶设置 by sirpdboy 
 # 当luci-app-advancedplus插件开启时 需排除冲突项 luci-app-argon-config和luci-i18n-argon-config-zh-cn 减号代表排除
 CUSTOM_PACKAGES="$CUSTOM_PACKAGES luci-app-advancedplus luci-i18n-advancedplus-zh-cn -luci-app-argon-config -luci-i18n-argon-config-zh-cn"
@@ -42,3 +42,12 @@ CUSTOM_PACKAGES="$CUSTOM_PACKAGES luci-app-netspeedtest luci-i18n-netspeedtest-z
 #CUSTOM_PACKAGES="$CUSTOM_PACKAGES luci-app-lucky lucky"
 # 集客AC
 #CUSTOM_PACKAGES="$CUSTOM_PACKAGES luci-app-gecoosac gecoosac"
+
+# custom
+CUSTOM_PACKAGES="$CUSTOM_PACKAGES luci-app-samba4 luci-i18n-samba4-zh-cn"
+CUSTOM_PACKAGES="$CUSTOM_PACKAGES luci-app-banip luci-i18n-banip-zh-cn"
+CUSTOM_PACKAGES="$CUSTOM_PACKAGES luci-app-openvpn-server"
+CUSTOM_PACKAGES="$CUSTOM_PACKAGES luci-app-ddns	luci-i18n-ddns-zh-cn"
+CUSTOM_PACKAGES="$CUSTOM_PACKAGES luci-app-thunder"
+
+
