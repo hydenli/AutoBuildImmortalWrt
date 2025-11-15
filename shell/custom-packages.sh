@@ -58,5 +58,7 @@ CUSTOM_PACKAGES="$CUSTOM_PACKAGES luci-app-samba4 luci-i18n-samba4-zh-cn"
 CUSTOM_PACKAGES="$CUSTOM_PACKAGES luci-app-banip luci-i18n-banip-zh-cn"
 CUSTOM_PACKAGES="$CUSTOM_PACKAGES luci-app-openvpn-server"
 CUSTOM_PACKAGES="$CUSTOM_PACKAGES luci-app-ddns	luci-i18n-ddns-zh-cn"
+CUSTOM_PACKAGES="$CUSTOM_PACKAGES luci-app-openlist	luci-i18n-openlist-zh-cn"
+
 CUSTOM_PACKAGES="$CUSTOM_PACKAGES -luci-app-filebrowser  -luci-i18n-filebrowser-zh-cn"
 CUSTOM_PACKAGES="$CUSTOM_PACKAGES -luci-app-ttyd  -luci-i18n-ttyd-zh-cn"
